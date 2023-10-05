@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Twitter Clone",
+    "image": "TwitterClone",
+    "desc":"React+other libraries & frameworks.",
+    "links": {
+      "code": "https://github.com/Sakshi14rj/twitter-clone"
+    }
+  },
+  {
+    "name": "StackOverflow Clone",
+    "image": "stack OVERFLOW CLONE",
+    "desc":"MERN Website.",
+    "links": {
+      "code": "https://github.com/Sakshi14rj/STACKOF"
+    }
+  },
+  {
+    "name": "Soul-sial",
+    "image": "SOUL-SIAL",
+    "desc":"CRUD ,React+Node+Express Website.",
+    "links": {
+      "code": "https://github.com/Sakshi14rj/Social-MERN"
+    }
+  },
+  {
+    "name": "ChatBot",
+    "image": "Doddles",
+    "desc":"Javascript APIs and React+Node Website.",
+    "links": {
+      "code": "https://github.com/Sakshi14rj/GPT3.5Clone"
+    }
+  },
+  {
+    "name": "SUPES",
+    "image": "SUPES",
+    "desc":"WordPress Website - not hosted",
+    "links": {
+      "code": "https://github.com/Sakshi14rj"
+    }
+  },
+  {
+    "name": "Sorting Visualizer",
+    "image": "Sorting Visualizer",
+    "desc": "Clear your DSA concepts with this.",
+    "links": {
+      "code": "https://github.com/Sakshi14rj/Sorting-Visualizer"
+    }
+  }
+ 
+]
