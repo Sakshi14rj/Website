@@ -11,8 +11,7 @@ Typed.js, Tilt.js, Scroll Reveal, Tawk.to, Font Awesome and JSON.
 <h2>📬 Contact</h2>
 
 
-&nbsp;&nbsp;<a href="https://www.linkedin.com/in/sakshi-raj-1771161b8/"><img src="https://www.linkedin.com/in/sakshi-raj-1771161b8/overlay/background-image/" width="30"></img></a>
-
+&nbsp;&nbsp;<a href="https://www.linkedin.com/in/sakshi-raj-1771161b8/">
 © 2023 Sakshi Raj
 
 
