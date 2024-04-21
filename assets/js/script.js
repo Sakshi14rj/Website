@@ -54,38 +54,13 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "UI/UX", "web development"],
+    strings: ["Frontend development","Prototyping", "Mockups", "UI/UX", "web development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
     backDelay: 500,
 });
 // <!-- typed js effect ends -->
-
-async function fetchData(type = "skills") {
-    let response
-    type === "skills" ?
-        response = await fetch("skills.json")
-        :
-        response = await fetch("./projects/projects.json")
-    const data = await response.json();
-    return data;
-}
-
-function showSkills(skills) {
-    let skillsContainer = document.getElementById("skillsContainer");
-    let skillHTML = "";
-    skills.forEach(skill => {
-        skillHTML += `
-        <div class="bar">
-              <div class="info">
-                <img src=${skill.icon} alt="skill" />
-                <span>${skill.name}</span>
-              </div>
-            </div>`
-    });
-    skillsContainer.innerHTML = skillHTML;
-}
 
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
@@ -120,7 +95,7 @@ function showProjects(projects) {
     const srtop = ScrollReveal({
         origin: 'top',
         distance: '80px',
-        duration: 1000,
+        duration: 2000,
         reset: true
     });
 
@@ -130,7 +105,7 @@ function showProjects(projects) {
 }
 
 fetchData().then(data => {
-    showSkills(data);
+    showservices(data);
 });
 
 fetchData("projects").then(data => {
@@ -168,7 +143,7 @@ document.onkeydown = function (e) {
 const srtop = ScrollReveal({
     origin: 'top',
     distance: '80px',
-    duration: 1000,
+    duration: 2000,
     reset: true
 });
 
@@ -189,9 +164,9 @@ srtop.reveal('.about .content .box-container', { delay: 200 });
 srtop.reveal('.about .content .resumebtn', { delay: 200 });
 
 
-/* SCROLL SKILLS */
-srtop.reveal('.skills .container', { interval: 200 });
-srtop.reveal('.skills .container .bar', { delay: 400 });
+/* SCROLL services */
+srtop.reveal('.services .container', { interval: 200 });
+srtop.reveal('.services .container .bar', { delay: 400 });
 
 /* SCROLL EDUCATION */
 srtop.reveal('.education .box', { interval: 200 });
@@ -206,3 +181,5 @@ srtop.reveal('.experience .timeline .container', { interval: 400 });
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
 srtop.reveal('.contact .container .form-group', { delay: 400 });
+
+
